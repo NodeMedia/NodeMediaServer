@@ -10,6 +10,7 @@ Node Media Server 以下简称nms，最初是以node.js实现的RTMP协议流媒
 * 支持Https/Wss加密协议接入
 * 支持非AAC编码推流时，零延迟转码AAC
 * 支持H265
+* 支持中继海康，大华NVR实时预览，录像回放视频流
 
 ## 计划
 * 支持Linux ARM64/MIPS64EL 架构
