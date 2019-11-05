@@ -1,10 +1,10 @@
 # Node Media Server
 ## 简介
-Node Media Server 以下简称nms，最初是以node.js实现的RTMP协议流媒体服务端。
+Node Media Server 以下简称nms，最初是以node.js实现的RTMP协议流媒体服务端。  
 最新v3版使用go语言重写了整个项目，获得了更好的并发性能，也拥有了更强的功能。
 
 ## 版本
-v3.0.7
+v3.0.8 - 2019/11/05
 
 ## 特性
 * 支持多核，万级并发
