@@ -33,3 +33,6 @@ v3.1.12
 * 支持kcp-flv超低延迟，弱网满速传输 - v3.5
 * 支持MIPS64EL架构
 * 替换Nodelayer.js作后台视频预览播放器，以支持H.265视频
+
+## 文档
+http://www.nodemedia.cn/doc/web/#/5
