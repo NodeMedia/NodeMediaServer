@@ -44,5 +44,5 @@ https://github.com/NodeMedia/NodeMediaServer/releases
 http://www.nodemedia.cn/doc/web/#/5
 
 ## 商务服务
-QQ: 281269007  
+QQ: [281269007](http://wpa.qq.com/msgrd?v=3&uin=281269007&site=qq&menu=yes)  
 Email: service@nodemedia.cn
