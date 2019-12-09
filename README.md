@@ -6,6 +6,9 @@ Node Media Server 以下简称nms，最初是以node.js实现的RTMP协议流媒
 ## 版本
 v3.1.12
 
+## 下载
+https://github.com/NodeMedia/NodeMediaServer/releases
+
 ## 特性
 * 支持多核，万级并发
 * 支持Windows/MacOS/Linux 
@@ -29,7 +32,7 @@ v3.1.12
 
 ## 计划
 * 支持低延迟HLS, 支持H265格式的HLS - v3.2
-* 支持直播录制 - v3.2
+* 支持直播录制MP4 - v3.2
 * 支持WebRTC协议 - v3.2
 * 支持GB28181协议 - v3.3
 * 支持kcp-flv超低延迟，弱网满速传输 - v3.4
