@@ -14,7 +14,7 @@ https://github.com/NodeMedia/NodeMediaServer/releases
 * 支持多核，万级并发
 * 支持Windows/MacOS/Linux 
 * 支持X86_64/ARM64架构
-* 支持Rtmp/Http-FLV/Websocket-FLV/JT-T1078协议接入
+* 支持Rtmp/Http-FLV/Websocket-FLV/HLS/JT-T1078协议接入
 * 支持Https/Wss加密协议接入
 * 支持H.264,H.265视频编码
 * 支持AAC,Speex，NellyMoser，G711音频编码
