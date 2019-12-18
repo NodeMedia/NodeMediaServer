@@ -41,7 +41,7 @@ https://github.com/NodeMedia/NodeMediaServer/releases
 * 替换Nodelayer.js作后台视频预览播放器，以支持H.265视频
 
 ## KMP协议
-* kmp协议是诺德美地公司根据多年流媒体开发经验定制的视频传输协议。  
+* kmp协议是诺德美地公司根据多年流媒体开发经验制定的视频传输协议。  
 * 采用可靠UDP进行传输，解决弱网环境下越来越卡的问题。  
 * 支持推流与播放
 * 将在SDK版NodeMediaClient全系支持。  
