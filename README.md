@@ -33,10 +33,10 @@ https://github.com/NodeMedia/NodeMediaServer/releases
 * 支持低延迟会话HLS, 支持H264/H265编码，支持内置鉴权，支持事件通知与流量统计
 
 ## 计划
+* 支持可靠UDP传输的kmp协议 - 即将推出
 * 支持直播录制MP4 - v3.2
 * 支持WebRTC协议 - v3.2
 * 支持GB28181协议 - v3.3
-* 支持kcp-flv超低延迟，弱网满速传输 - v3.4
 * 支持MIPS64EL，armv7架构
 * 替换Nodelayer.js作后台视频预览播放器，以支持H.265视频
 
