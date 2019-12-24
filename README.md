@@ -5,7 +5,7 @@ Node Media Server 以下简称nms，最初是以node.js实现的RTMP协议流媒
 v3版为商用软件，可免费试用半年，现阶段star项目后联系客服提供MachineID可获得永久授权。
 
 ## 版本
-v3.2.1
+v3.2.2
 
 ## 下载
 https://github.com/NodeMedia/NodeMediaServer/releases
