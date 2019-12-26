@@ -37,7 +37,7 @@ https://github.com/NodeMedia/NodeMediaServer/releases
 * 支持直播录制MP4 - v3.3
 * 支持WebRTC协议 - v3.4
 * 支持GB28181协议 - v3.5
-* 支持MIPS64EL，armv7架构
+* 支持MIPS64EL，arm32架构
 * 替换Nodelayer.js作后台视频预览播放器，以支持H.265视频
 
 ## KMP协议
