@@ -40,7 +40,7 @@ https://github.com/NodeMedia/NodeMediaServer/releases
 * 支持龙芯MIPS64EL架构
 * 支持服务器之间使用kmp协议中继，部署低延迟海外服务器集群
 * 支持基于消息传递或redis资源共享的集群模式
-* 替换NodePlayer.js作后台视频预览播放器，以支持H.265视频
+* 替换NodePlayer.js作后台视频播放器，以支持H.265视频预览
 
 ## KMP协议
 * kmp协议是诺德美地公司根据多年流媒体开发经验制定的视频传输协议。  
