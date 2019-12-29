@@ -18,7 +18,7 @@ https://github.com/NodeMedia/NodeMediaServer/releases
 * 支持Https/Wss加密协议接入
 * 支持H.264,H.265视频编码
 * 支持AAC,Speex，NellyMoser，G711音频编码
-* 支持非AAC编码推流时，零延迟转码AAC
+* 支持非AAC编码推流时，不开新流零延迟转码AAC
 * 支持web后台快捷添加海康、大华、宇视RTSP拉流转发
 * 支持配置自定义RTSP、RTMP地址拉取转发
 * 支持拉流转发任务持久化存储
@@ -38,6 +38,8 @@ https://github.com/NodeMedia/NodeMediaServer/releases
 * 支持WebRTC协议 - v3.4
 * 支持GB28181协议 - v3.5
 * 支持龙芯MIPS64EL架构
+* 支持服务器之间使用kmp协议中继，部署低延迟海外服务器集群
+* 支持基于消息传递或redis资源共享的集群模式
 * 替换Nodelayer.js作后台视频预览播放器，以支持H.265视频
 
 ## KMP协议
@@ -48,6 +50,9 @@ https://github.com/NodeMedia/NodeMediaServer/releases
 
 ## KMP客户端支持
 * NodePlayer-win_v0.0.2 http://www.nodemedia.cn/products/node-media-client/windows/
+* NodeMediaClient-Android 开发中
+* NodeMediaClient-iOS 开发中
+* NodeMediaClient-WinPlugin 开发中
 
 ## 文档
 http://www.nodemedia.cn/doc/web/#/5
