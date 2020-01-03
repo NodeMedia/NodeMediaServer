@@ -50,8 +50,8 @@ https://github.com/NodeMedia/NodeMediaServer/releases
 
 ## KMP客户端支持
 * NodePlayer-win_v0.0.2 http://www.nodemedia.cn/products/node-media-client/windows/
-* NodeMediaClient-Android 开发中
-* NodeMediaClient-iOS 开发中
+* NodeMediaClient-Android_v2.6.0 https://github.com/NodeMedia/NodeMediaClient-Android
+* NodeMediaClient-iOS_v2.6.0 https://github.com/NodeMedia/NodeMediaClient-iOS
 * NodeMediaClient-WinPlugin 开发中
 
 ## 文档
