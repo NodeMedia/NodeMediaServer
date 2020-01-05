@@ -48,11 +48,15 @@ https://github.com/NodeMedia/NodeMediaServer/releases
 * 支持推流与播放
 * 将在SDK版NodeMediaClient全系支持。  
 
-## KMP客户端支持
+## KMP客户端
 * NodePlayer-win_v0.0.2 http://www.nodemedia.cn/products/node-media-client/windows/
+* Android App
+![img](https://www.nodemedia.cn/uploads/apk.png)
+
+## KMP客户端SDK
 * NodeMediaClient-Android_v2.6.0 https://github.com/NodeMedia/NodeMediaClient-Android
 * NodeMediaClient-iOS_v2.6.0 https://github.com/NodeMedia/NodeMediaClient-iOS
-* NodeMediaClient-WinPlugin 开发中
+* NodeMediaClient-WinPlugin 开发中  
 
 ## 文档
 http://www.nodemedia.cn/doc/web/#/5
