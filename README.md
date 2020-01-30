@@ -56,7 +56,7 @@ https://github.com/NodeMedia/NodeMediaServer/releases
 ## KMP客户端SDK
 * NodeMediaClient-Android_v2.6.0 https://github.com/NodeMedia/NodeMediaClient-Android
 * NodeMediaClient-iOS_v2.6.0 https://github.com/NodeMedia/NodeMediaClient-iOS
-* NodeMediaClient-WinPlugin 开发中  
+* NodeMediaClient-WinPlugin_v0.2.7 http://www.nodemedia.cn/products/node-media-client/winplugin/ 
 
 ## 文档
 http://www.nodemedia.cn/doc/web/#/5
