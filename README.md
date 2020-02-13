@@ -5,7 +5,7 @@ Node Media Server 以下简称nms，最初是以node.js实现的RTMP协议流媒
 v3版为商用软件，可免费试用半年，现阶段star项目后联系客服提供MachineID可获得永久授权。
 
 ## 版本
-v3.2.8
+v3.2.9
 
 ## 下载
 https://github.com/NodeMedia/NodeMediaServer/releases
@@ -34,9 +34,9 @@ https://github.com/NodeMedia/NodeMediaServer/releases
 * 支持可靠UDP传输的kmp协议
 
 ## 计划
-* 支持直播录制MP4 - v3.3
-* 支持WebRTC协议 - v3.4
-* 支持GB28181协议 - v3.5
+* 支持WebRTC协议
+* 支持直播录制MP4
+* 支持GB28181协议
 * 支持龙芯MIPS64EL架构
 * 支持服务器之间使用kmp协议中继，部署低延迟海外服务器集群
 * 支持基于消息传递或redis资源共享的集群模式
