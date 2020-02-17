@@ -44,7 +44,7 @@ https://github.com/NodeMedia/NodeMediaServer/releases
 
 ## KMP协议
 * kmp协议是诺德美地公司根据多年流媒体开发经验制定的视频传输协议。  
-* 采用可靠UDP进行传输，解决弱网环境下越来越卡的问题。  
+* 采用可靠UDP进行传输，具有超强的弱网传输能力。  
 * 支持推流与播放
 * 将在SDK版NodeMediaClient全系支持。  
 
