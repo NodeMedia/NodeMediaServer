@@ -2,7 +2,9 @@
 ## 简介
 Node Media Server 以下简称nms，最初是以node.js实现的RTMP协议流媒体服务端。  
 最新v3版使用go语言重写了整个项目，获得了更好的并发性能，也拥有了更强的功能。  
-v3版为商用软件，可免费试用半年，现阶段star项目后联系客服提供MachineID可获得永久授权。
+v3版为商用软件，关注微信公众号免费获得一年注册码
+
+![img](https://cdn.nodemedia.cn/img/qrcode_for_gh_d91d27074220_344.jpg)
 
 ## 版本
 v3.2.9
