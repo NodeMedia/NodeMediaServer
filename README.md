@@ -4,7 +4,7 @@ Node Media Server 以下简称nms，最初是以node.js实现的RTMP协议流媒
 最新v3版使用go语言重写了整个项目，获得了更好的并发性能，也拥有了更强的功能。  
 
 ## 版本
-v3.2.10
+v3.2.12
 
 ## 下载
 https://github.com/NodeMedia/NodeMediaServer/releases
