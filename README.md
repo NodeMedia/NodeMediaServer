@@ -3,7 +3,7 @@
 ## 简介
 Node Media Server Pro 是Go语言开发的商用高性能流媒体服务器。  
 依托于Go语言原生对多核的优势，发挥出极强的并发性能：查看性能测试。  
-支持主流的RTMP、HTTP-FLV、WebSocket—FLV、低延迟HLS。  
+支持主流的RTMP、HTTP-FLV、WebSocket-FLV、低延迟HLS。  
 支持KCP传输的超低延迟，超强弱网传输能力的KMP协议。  
 支持WebRTC协议接入推流，Flash退役后完美替代(开发中)  
 支持行业应用的JT/T1078,GB28181(计划中)  
