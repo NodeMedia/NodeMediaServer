@@ -1,13 +1,21 @@
-# Node Media Server
+# Node Media Server Pro
+
 ## 简介
-Node Media Server 以下简称nms，最初是以node.js实现的RTMP协议流媒体服务端。  
-最新v3版使用go语言重写了整个项目，获得了更好的并发性能，也拥有了更强的功能。  
+Node Media Server Pro 是Go语言开发的商用高性能流媒体服务器。  
+依托于Go语言原生对多核的优势，发挥出极强的并发性能：查看性能测试。  
+支持主流的RTMP、HTTP-FLV、WebSocket—FLV、低延迟HLS。  
+支持KCP传输的超低延迟，超强弱网传输能力的KMP协议。  
+支持WebRTC协议接入推流，Flash退役后完美替代(开发中)  
+支持行业应用的JT/T1078,GB28181(计划中)  
 
 ## 版本
-v3.2.13
+v3.2.14
 
 ## 下载
 https://github.com/NodeMedia/NodeMediaServer/releases
+
+## 国内CDN加速下载
+http://www.nodemedia.cn/doc/web/#/5?page_id=11
 
 ## 特性
 * 支持多核，万级并发
