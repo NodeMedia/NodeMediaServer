@@ -8,13 +8,7 @@ Node Media Server Pro 是Go语言开发的商用高性能流媒体服务器。
 支持WebRTC协议接入推流，Flash退役后完美替代(开发中)  
 支持行业应用的JT/T1078,GB28181(计划中)  
 
-## 版本
-v3.2.14
-
 ## 下载
-https://github.com/NodeMedia/NodeMediaServer/releases
-
-## 国内CDN加速下载
 http://www.nodemedia.cn/doc/web/#/5?page_id=11
 
 ## 特性
