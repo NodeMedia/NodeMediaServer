@@ -1,0 +1,48 @@
+# ENVs
+
+## BIND_ADDR
+
+## LICENSE
+
+## ADMIN_PANEL
+
+## GOP_CACHE
+
+## NOTIFY_URL
+
+## LOG_LEVEL
+
+## TRANS_AUDIO
+
+## AUTH_KEY
+
+## AUTH_PLAY
+
+## AUTH_PUSH
+
+## AUTH_API
+
+## AUTH_API_USER
+
+## AUTH_API_PASS
+
+## RTMP_PORT
+
+## RTMP_CHUNK_SIZE
+
+## HTTP_PORT
+
+## HTTPS_PORT
+
+## KEY_FILE
+
+## CERT_FILE
+
+## HLS_LIST
+
+## HLS_TIME
+
+## HLS_PATH
+
+## KMP_PORT
+
