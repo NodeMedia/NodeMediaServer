@@ -1,5 +1,5 @@
 FROM frolvlad/alpine-glibc
-RUN wget https://cdn.nodemedia.cn/nms/nms-linux-amd64-v3.3.1-20200301.tar.gz -O - | tar xz
+RUN wget https://cdn.nodemedia.cn/nms/3.3.2/nms-linux-amd64-v3.3.2-20200302.tar.gz -O - | tar xz
 EXPOSE 1935 8000 8443 6935/udp
 WORKDIR nms-linux-amd64
 ENV ADMIN_PANEL=1 \
@@ -12,8 +12,5 @@ ENV ADMIN_PANEL=1 \
     RTMP_CHUNK_SIZE=60000 \
     HTTP_PORT=8000 \
     HTTPS_PORT=8443 \
-    HLS_LIST=3 \
-    HLS_TIME=2 \
-    HLS_PATH=/tmp \
     KMP_PORT=6935
 CMD ["./nms","-e"]
