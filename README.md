@@ -60,10 +60,15 @@ http://www.nodemedia.cn/doc/web/#/5?page_id=11
 * NodeMediaClient-iOS_v2.6.0 https://github.com/NodeMedia/NodeMediaClient-iOS
 * NodeMediaClient-WinPlugin_v0.2.7 http://www.nodemedia.cn/products/node-media-client/winplugin/ 
 
+## 低延迟HLS
+NMSv3支持配置低延迟HLS，推流端配置关键帧间隔1至2秒。服务端配置HLS切片单个ts时长2秒、列表长度3，延迟6秒。
 
 ## 会话型HLS
 nginx-rtmp对HLS的实现模式,只是简单的在推流后只生成m3u8和ts文件，并提供http的静态文件服务。无法进行会话管理，无法统计hls播放量，无法获得播放和结束的事件。  
 NMSv3的HLS实现，采用了session会话管理，可以定位访问资源的用户id，ip，访问参数，可以触发事件接口，可以使用内置鉴权规则，可以统计播放量，可以统计用户使用的流量，可以获得用户开始播放和结束播放的事件。
+
+## P2P HLS
+NMSv3生成的HLS流支持P2P技术分流，节省25%以上带宽。[P2PHLS测试](http://novage.com.ua/p2p-media-loader/demo.html?url=http%3A%2F%2Fnodemedia.io%2Flive%2Fxxm.m3u8&type=clappr)
 
 ## H265/HEVC 编码的 HLS流
 NMSv3支持H265/HEVC编码的视频输出HLS流，m3u8采用v7，视频采用fMP4切片。
