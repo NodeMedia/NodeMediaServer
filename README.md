@@ -60,6 +60,16 @@ http://www.nodemedia.cn/doc/web/#/5?page_id=11
 * NodeMediaClient-iOS_v2.6.0 https://github.com/NodeMedia/NodeMediaClient-iOS
 * NodeMediaClient-WinPlugin_v0.2.7 http://www.nodemedia.cn/products/node-media-client/winplugin/ 
 
+
+## 会话型HLS
+nginx-rtmp对HLS的实现模式,只是简单的在推流后只生成m3u8和ts文件，并提供http的静态文件服务。无法进行会话管理，无法统计hls播放量，无法获得播放和结束的事件。
+NMSv3的HLS实现，采用了session会话管理，可以定位访问资源的用户id，ip，访问参数，可以触发事件接口，可以使用内置鉴权规则，可以统计播放量，可以统计用户使用的流量，可以获得用户开始播放和结束播放的事件。
+
+## H265/HEVC 编码的 HLS流
+NMSv3支持H265/HEVC编码的视频输出HLS流，m3u8采用v7，视频采用fMP4切片。
+注意：只有MacOS 10.13，iOS 11之后原生支持，所有chrome，firefox不支持。Windows下，ie11，edge12-18在硬件支持的情况下支持。部分手机内置浏览器支持（小米）。
+具体分析请看：[浏览器播放H265/HEVC视频的可行性分析](http://bashell.nodemedia.cn/archives/%e6%b5%8f%e8%a7%88%e5%99%a8%e6%92%ad%e6%94%beh265-hevc%e8%a7%86%e9%a2%91%e7%9a%84%e5%8f%af%e8%a1%8c%e6%80%a7%e5%88%86%e6%9e%90.html)
+
 ## 文档
 http://www.nodemedia.cn/doc/web/#/5
 
