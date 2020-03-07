@@ -62,7 +62,10 @@ http://www.nodemedia.cn/doc/web/#/5?page_id=11
 * NodeMediaClient-WinPlugin_v0.2.7 http://www.nodemedia.cn/products/node-media-client/winplugin/ 
 
 ### KMP测试流
+GCP洛杉矶机房, ping 190, 10%以上掉包率，国内测试对比效果明显。
 - kmp://play.nodemedia.io/live/ljq
+- rtmp://play.nodemedia.io/live/ljq
+>服务器已开BBR，但KMP协议UDP传输明显连接速度更快更稳。
 
 ## HLS
 ### 低延迟HLS
