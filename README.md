@@ -37,6 +37,7 @@ http://www.nodemedia.cn/doc/web/#/5?page_id=11
 * 支持环境变量配置参数，实现高定制化docker部署
 
 ## 计划
+* 支持中继输出视频内容加密
 * 支持直播推流定时截图
 * 支持WebRTC协议
 * 支持直播录制MP4
