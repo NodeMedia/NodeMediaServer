@@ -16,6 +16,10 @@
 
 ## TRANS_AUDIO
 
+## CRYPTO_KEY
+
+## CRYPTO_RULE
+
 ## AUTH_KEY
 
 ## AUTH_PLAY
