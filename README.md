@@ -64,10 +64,10 @@ http://www.nodemedia.cn/doc/web/#/5?page_id=11
 * NodeMediaClient-iOS_v2.6.0 https://github.com/NodeMedia/NodeMediaClient-iOS
 * NodeMediaClient-WinPlugin_v0.2.7 http://www.nodemedia.cn/products/node-media-client/winplugin/ 
 
-### KMP测试流
+### KMP对比测试流
 - kmp://play.nodemedia.io/live/xxm
 - rtmp://play.nodemedia.io/live/xxm
->服务器已开BBR
+>GCP asia-east1-c 机房，国内ping 200，掉包严重，已开BBR
 
 ## HLS
 ### 低延迟HLS
