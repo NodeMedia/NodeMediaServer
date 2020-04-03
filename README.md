@@ -18,7 +18,7 @@ http://www.nodemedia.cn/doc/web/#/5?page_id=11
 * 支持Rtmp/Http-FLV/Websocket-FLV/HLS/JT-T1078协议接入
 * 支持Https/Wss加密协议接入
 * 支持H.264,H.265视频编码
-* 支持AAC,Speex，NellyMoser，G711音频编码
+* 支持AAC,Speex,NellyMoser,G711,Opus音频编码
 * 支持非AAC编码推流时，不开新流零延迟转码AAC
 * 支持web后台快捷添加海康、大华、宇视RTSP拉流转发
 * 支持配置自定义RTSP、RTMP地址拉取转发
@@ -36,10 +36,11 @@ http://www.nodemedia.cn/doc/web/#/5?page_id=11
 * 支持服务器之间使用kmp协议中继，部署低延迟海外服务器集群
 * 支持环境变量配置参数，实现高定制化docker部署
 * 支持视频内容加密
+* 支持WebRTC协议推流,OPUS音频实时转码AAC
 
 ## 计划
 * 支持直播推流定时截图
-* 支持WebRTC协议
+* 支持WebRTC协议播流
 * 支持直播录制MP4
 * 支持GB28181协议
 * 支持龙芯MIPS64EL架构
@@ -83,6 +84,18 @@ NMSv3生成的HLS流支持P2P技术分流，节省25%以上带宽。[P2PHLS测�
 NMSv3支持H265/HEVC编码的视频输出HLS流，m3u8采用v7，视频采用fMP4切片。
 注意：只有MacOS 10.13，iOS 11之后原生支持，所有chrome，firefox不支持。Windows下，ie11，edge12-18在硬件支持的情况下支持。部分手机内置浏览器支持（小米）。
 具体分析请看：[浏览器播放H265/HEVC视频的可行性分析](http://bashell.nodemedia.cn/archives/%e6%b5%8f%e8%a7%88%e5%99%a8%e6%92%ad%e6%94%beh265-hevc%e8%a7%86%e9%a2%91%e7%9a%84%e5%8f%af%e8%a1%8c%e6%80%a7%e5%88%86%e6%9e%90.html)
+
+## WebRTC
+### 推流
+NMSv3.3.8及之后版本可用, 先使用WebSocket与NMS之间交换信令, 再创建客户端到服务端之间的webrtc连接.  
+客户端向服务端推送H264+Opus编码的流,服务端再封装为rtmp/kmp/http-flv/hls等协议提供客户端播放.  
+支持软硬件编码,1080超高清无压力
+opus音频编码可在服务端实时转码为AAC  
+支持最新版Chrome,Edge,firefox及使用chrome内核的浏览器,无需安装插件,不限操作系统.  
+目前低版本chrome内核有兼容问题,后期会尝试解决.  
+
+### 播流
+待实现
 
 ## 文档
 http://www.nodemedia.cn/doc/web/#/5
