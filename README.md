@@ -94,6 +94,8 @@ opus音频编码可在服务端实时转码为AAC
 支持最新版Chrome,Edge,firefox及使用chrome内核的浏览器,无需安装插件,不限操作系统.  
 目前低版本chrome内核有兼容问题,后期会尝试解决.  
 
+测试地址：https://www.nodemedia.cn/uploads/rtc/
+
 ### 播流
 待实现
 
