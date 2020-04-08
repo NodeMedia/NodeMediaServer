@@ -87,7 +87,7 @@ NMSv3支持H265/HEVC编码的视频输出HLS流，m3u8采用v7，视频采用fMP
 
 ## WebRTC
 ### 推流
-NMSv3.3.8及之后版本可用, 先使用WebSocket与NMS之间交换信令, 再创建客户端到服务端之间的webrtc连接.  
+NMSv3.4.0及之后版本可用, 先使用WebSocket与NMS之间交换信令, 再创建客户端到服务端之间的webrtc连接.  
 客户端向服务端推送H264+Opus编码的流,服务端再封装为rtmp/kmp/http-flv/hls等协议提供客户端播放.  
 支持软硬件编码,1080超高清无压力
 opus音频编码可在服务端实时转码为AAC  
