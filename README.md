@@ -93,6 +93,8 @@ NMSv3.4.0及之后版本可用, 先使用WebSocket与NMS之间交换信令, 再�
 Opus音频编码可在服务端实时转码为AAC  
 支持最新版Chrome,Edge,firefox及使用chromium内核的浏览器,无需安装插件,不限操作系统.  
 
+测试地址：https://www.nodemedia.cn/uploads/rtc/
+
 ### 播流
 待实现
 
@@ -100,7 +102,7 @@ Opus音频编码可在服务端实时转码为AAC
 http://www.nodemedia.cn/doc/web/#/5
 
 ## 商务服务
-v3版为商用软件，关注微信公众号免费获得一年注册码
+v3版为商用软件，目前处于开发测试阶段，关注微信公众号免费获得一年注册码
 
 ![img](https://cdn.nodemedia.cn/img/qrcode_for_gh_d91d27074220_344.jpg)
 
