@@ -12,6 +12,8 @@
 
 ## NOTIFY_URL
 
+## WEB_ROOT
+
 ## LOG_LEVEL
 
 ## TRANS_AUDIO
