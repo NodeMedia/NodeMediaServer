@@ -1,5 +1,5 @@
 FROM frolvlad/alpine-glibc
-RUN wget https://cdn.nodemedia.cn/nms/3.4.1/nms-linux-amd64-v3.4.1-20200409.tar.gz -O - | tar xz
+RUN wget https://cdn.nodemedia.cn/nms/3.4.2/nms-linux-amd64-v3.4.2-20200409.tar.gz -O - | tar xz
 EXPOSE 1935 8000 8443 6935/udp
 WORKDIR nms-linux-amd64
 ENV ADMIN_PANEL=1 \
