@@ -64,11 +64,6 @@ http://www.nodemedia.cn/doc/web/#/5?page_id=11
 * NodeMediaClient-iOS_v2.6.0 https://github.com/NodeMedia/NodeMediaClient-iOS
 * NodeMediaClient-WinPlugin_v0.2.7 http://www.nodemedia.cn/products/node-media-client/winplugin/ 
 
-### KMP对比测试流
-- kmp://play.nodemedia.io/live/xxm
-- rtmp://play.nodemedia.io/live/xxm
->GCP asia-east1-c 机房，国内ping 200，掉包严重，已开BBR
-
 ## HLS
 ### 低延迟HLS
 NMSv3支持配置低延迟HLS，推流端配置关键帧间隔1至2秒。服务端配置HLS切片单个ts时长2秒、列表长度3，延迟6秒。
@@ -80,7 +75,7 @@ NMSv3的HLS实现，采用了session会话管理，可以定位访问资源的�
 ### P2P HLS
 NMSv3生成的HLS流支持P2P技术分流，节省25%以上带宽。[P2PHLS测试](http://novage.com.ua/p2p-media-loader/demo.html?url=http%3A%2F%2Fplay.nodemedia.io%2Flive%2Fxxm.m3u8&type=clappr)
 
-### H265/HEVC 编码的 HLS流
+### H265/HEVC 编码的 HLS
 NMSv3支持H265/HEVC编码的视频输出HLS流，m3u8采用v7，视频采用fMP4切片。
 注意：只有MacOS 10.13，iOS 11之后原生支持，所有chrome，firefox不支持。Windows下，ie11，edge12-18在硬件支持的情况下支持。部分手机内置浏览器支持（小米）。
 具体分析请看：[浏览器播放H265/HEVC视频的可行性分析](http://bashell.nodemedia.cn/archives/%e6%b5%8f%e8%a7%88%e5%99%a8%e6%92%ad%e6%94%beh265-hevc%e8%a7%86%e9%a2%91%e7%9a%84%e5%8f%af%e8%a1%8c%e6%80%a7%e5%88%86%e6%9e%90.html)
