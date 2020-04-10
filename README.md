@@ -1,4 +1,4 @@
-# Node Media Server Pro
+# Node Media Server v3
 
 ## 简介
 Node Media Server Pro 是Go语言开发的商用高性能流媒体服务器。  
