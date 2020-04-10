@@ -72,9 +72,6 @@ NMSv3支持配置低延迟HLS，推流端配置关键帧间隔1至2秒。服务�
 nginx-rtmp对HLS的实现模式,只是简单的在推流后只生成m3u8和ts文件，并提供http的静态文件服务。无法进行会话管理，无法统计hls播放量，无法获得播放和结束的事件。  
 NMSv3的HLS实现，采用了session会话管理，可以定位访问资源的用户id，ip，访问参数，可以触发事件接口，可以使用内置鉴权规则，可以统计播放量，可以统计用户使用的流量，可以获得用户开始播放和结束播放的事件。
 
-### P2P HLS
-NMSv3生成的HLS流支持P2P技术分流，节省25%以上带宽。[P2PHLS测试](http://novage.com.ua/p2p-media-loader/demo.html?url=http%3A%2F%2Fplay.nodemedia.io%2Flive%2Fxxm.m3u8&type=clappr)
-
 ### H265/HEVC 编码的 HLS
 NMSv3支持H265/HEVC编码的视频输出HLS流，m3u8采用v7，视频采用fMP4切片。
 注意：只有MacOS 10.13，iOS 11之后原生支持，所有chrome，firefox不支持。Windows下，ie11，edge12-18在硬件支持的情况下支持。部分手机内置浏览器支持（小米）。
