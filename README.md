@@ -49,10 +49,11 @@ http://www.nodemedia.cn/doc/web/#/5?page_id=11
 
 ## KMP
 ### KMP协议
-* kmp协议是诺德美地公司根据多年流媒体开发经验制定的视频传输协议。  
-* 采用KCP协议作为传输层，具有超强的弱网传输能力和超低的延迟。  
+* kmp协议是诺德美地公司根据多年流媒体开发经验制定的视频传输协议  
+* 采用KCP协议作为传输层，具有超强的弱网传输能力和超低的延迟  
+* 支持NMS服务之间通过kmp协议进行中继转发
 * 支持推流与播放
-* SDK版NodeMediaClient全系支持。  
+* SDK版NodeMediaClient全系支持  
 
 ### KMP客户端
 * NodePlayer-win_v0.0.2 http://www.nodemedia.cn/products/node-media-client/windows/
