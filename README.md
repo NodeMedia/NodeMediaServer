@@ -6,7 +6,7 @@ Node Media Server v3 是Go语言开发的商用高性能流媒体服务器。
 支持主流的RTMP、HTTP-FLV、WebSocket-FLV、低延迟HLS。  
 支持KCP传输的超低延迟，超强弱网传输能力的KMP协议。  
 支持WebRTC协议接入推流，Flash退役后完美替代  
-支持行业应用的JT/T1078,GB28181(计划中)  
+支持行业应用的JT/T1078，GB28181(计划中)  
 
 ## 下载
 http://www.nodemedia.cn/doc/web/#/5?page_id=11
@@ -17,8 +17,8 @@ http://www.nodemedia.cn/doc/web/#/5?page_id=11
 * 支持X86_64/ARM64/ARM32架构
 * 支持Rtmp/Http-FLV/Websocket-FLV/HLS/JT-T1078协议接入
 * 支持Https/Wss加密协议接入
-* 支持H.264,H.265(flv id=12)视频编码
-* 支持AAC,Speex,NellyMoser,G711,Opus(flv id=13)音频编码
+* 支持H.264，H.265(flv id=12)视频编码
+* 支持AAC，Speex，NellyMoser，G711，Opus(flv id=13)音频编码
 * 支持非AAC编码推流时，不开新流零延迟转码AAC
 * 支持web后台快捷添加海康、大华、宇视RTSP拉流转发
 * 支持配置自定义RTSP、RTMP地址拉取转发
@@ -31,12 +31,12 @@ http://www.nodemedia.cn/doc/web/#/5?page_id=11
 * 支持流状态http回调
 * 支持规则转推，多路push
 * 支持规则转拉
-* 支持低延迟会话HLS, 支持H264/H265编码，支持内置鉴权，支持事件通知与流量统计
+* 支持低延迟会话HLS，支持H264/H265编码，支持内置鉴权，支持事件通知与流量统计，支持触发relay拉流
 * 支持可靠UDP传输的kmp协议
 * 支持服务器之间使用kmp协议中继，部署低延迟海外服务器集群
 * 支持环境变量配置参数，实现高定制化docker部署
 * 支持视频内容加密
-* 支持WebRTC协议推流,Opus音频实时转码AAC
+* 支持WebRTC协议推流，Opus音频实时转码AAC
 
 ## 计划
 * 支持直播推流定时截图
@@ -70,8 +70,8 @@ http://www.nodemedia.cn/doc/web/#/5?page_id=11
 NMSv3支持配置低延迟HLS，推流端配置关键帧间隔1至2秒。服务端配置HLS切片单个ts时长2秒、列表长度3，延迟6秒。
 
 ### 会话型HLS
-nginx-rtmp对HLS的实现模式,只是简单的在推流后只生成m3u8和ts文件，并提供http的静态文件服务。无法进行会话管理，无法统计hls播放量，无法获得播放和结束的事件。  
-NMSv3的HLS实现，采用了session会话管理，可以定位访问资源的用户id，ip，访问参数，可以触发事件接口，可以使用内置鉴权规则，可以统计播放量，可以统计用户使用的流量，可以获得用户开始播放和结束播放的事件。
+nginx-rtmp对HLS的实现模式，只是简单的在推流后只生成m3u8和ts文件，并提供http的静态文件服务. 无法进行会话管理，无法统计hls播放量，无法获得播放和结束的事件。  
+NMSv3的HLS实现，采用了会话管理，可以获取用户id、ip、访问参数，可以触发relay拉流，可以使用内置鉴权规则，可以统计播放量，可以统计用户使用的流量，可以获得用户开始播放和结束播放的事件。
 
 ### H265/HEVC 编码的 HLS
 NMSv3支持H265/HEVC编码的视频输出HLS流，m3u8采用v7，视频采用fMP4切片。
@@ -80,13 +80,11 @@ NMSv3支持H265/HEVC编码的视频输出HLS流，m3u8采用v7，视频采用fMP
 
 ## WebRTC
 ### 推流
-NMSv3.4.0及之后版本可用, 先使用WebSocket与NMS之间交换信令, 再创建客户端到服务端之间的webrtc连接.  
-客户端向服务端推送H264+Opus编码的流,服务端再封装为rtmp/kmp/http-flv/hls等协议提供客户端播放.  
-支持软硬件编码,1080超高清无压力
+NMSv3.4.0及之后版本可用，先使用WebSocket与NMS之间交换信令，再创建客户端到服务端之间的webrtc连接.  
+客户端向服务端推送H264+Opus编码的流，服务端再封装为rtmp/kmp/http-flv/hls等协议提供客户端播放.  
+支持软硬件编码，1080超高清无压力
 Opus音频编码可在服务端实时转码为AAC  
-支持最新版Chrome,Edge,firefox及使用chromium内核的浏览器,无需安装插件,不限操作系统.  
-
-测试地址：https://live.nodemedia.cn/rtcdemo.html
+支持最新版Chrome，Edge，firefox及使用chromium内核的浏览器，无需安装插件，不限操作系统.  
 
 ### 播流
 待实现
