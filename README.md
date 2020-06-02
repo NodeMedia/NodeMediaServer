@@ -89,8 +89,14 @@ Opus音频编码可在服务端实时转码为AAC
 ### 播流
 待实现
 
+## 更新日志
+http://www.nodemedia.cn/doc/web/#/5?page_id=12
+
 ## 文档
 http://www.nodemedia.cn/doc/web/#/5
+
+## Docker中运行
+http://www.nodemedia.cn/doc/web/#/5?page_id=57
 
 ## 商务服务
 v3版为商用软件，目前处于开发测试阶段，关注微信公众号免费获得一年注册码
