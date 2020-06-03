@@ -13,7 +13,7 @@ http://www.nodemedia.cn/doc/web/#/5?page_id=11
 
 ## 特性
 * 支持多核，万级并发
-* 支持Windows/MacOS/Linux 
+* 支持Windows/MacOS/Linux/FreeBSD
 * 支持X86_64/ARM64/ARM32架构
 * 支持Rtmp/Http-FLV/Websocket-FLV/HLS/JT-T1078协议接入
 * 支持Https/Wss加密协议接入
