@@ -37,9 +37,9 @@ http://www.nodemedia.cn/doc/web/#/5?page_id=11
 * 支持环境变量配置参数，实现高定制化docker部署
 * 支持视频内容加密
 * 支持WebRTC协议推流，Opus音频实时转码AAC
+* 支持直播推流定时截图
 
 ## 计划
-* 支持直播推流定时截图
 * 支持WebRTC协议播流
 * 支持直播录制MP4
 * 支持GB28181协议
