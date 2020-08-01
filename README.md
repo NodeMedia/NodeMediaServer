@@ -111,9 +111,6 @@ http://www.nodemedia.cn/doc/web/#/5
 http://www.nodemedia.cn/doc/web/#/5?page_id=57
 
 ## 商务服务
-v3版为商用软件，目前处于开发测试阶段，关注微信公众号免费获得一年注册码
-
-![img](https://cdn.nodemedia.cn/img/qrcode_for_gh_d91d27074220_344.jpg)
 
 QQ: [281269007](http://wpa.qq.com/msgrd?v=3&uin=281269007&site=qq&menu=yes)  
 Email: service@nodemedia.cn
