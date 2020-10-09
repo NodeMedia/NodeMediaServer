@@ -39,11 +39,11 @@ http://www.nodemedia.cn/doc/web/#/5?page_id=11
 * 支持WebRTC协议推流，Opus音频实时转码AAC
 * 支持直播推流定时截图
 * 支持直播录制MP4
+* 支持API控制截图与录像
 
 ## 计划
 * 支持服务端实时转码多分辨率输出
 * 支持服务端实时多模板合流
-* 支持API控制截图与录像
 * 支持WebRTC协议播流
 * 支持GB28181协议
 * 支持龙芯MIPS64EL架构
