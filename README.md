@@ -14,7 +14,7 @@ http://www.nodemedia.cn/doc/web/#/5?page_id=11
 ## 特性
 * 支持多核，万级并发
 * 支持Windows/MacOS/Linux/FreeBSD
-* 支持X86_64/ARM64/ARM32架构
+* 支持X86_64/ARM64/ARM32/龙芯MIPS64架构
 * 支持Rtmp/Http-FLV/Websocket-FLV/HLS/JT-T1078协议接入
 * 支持Https/Wss加密协议接入
 * 支持H.264，H.265(flv id=12)视频编码
@@ -46,8 +46,6 @@ http://www.nodemedia.cn/doc/web/#/5?page_id=11
 * 支持服务端实时多模板合流
 * 支持WebRTC协议播流
 * 支持GB28181协议
-* 支持龙芯MIPS64EL架构
-* 替换NodePlayer.js作后台视频播放器，以支持H.265视频预览
 
 ## KMP
 ### KMP协议
