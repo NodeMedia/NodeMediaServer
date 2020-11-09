@@ -1,7 +1,8 @@
-FROM busybox:glibc
-RUN wget https://cdn.nodemedia.cn/nms/3.6.0/nms-linux-amd64-v3.6.0-20201103.tar.gz -O - | tar xz
+FROM --platform=$TARGETPLATFORM busybox:glibc
+ARG TARGETARCH
+RUN wget http://cdn.nodemedia.cn/nms/3.6.0/nms-linux-$TARGETARCH-v3.6.0-20201103.tar.gz -O - | tar xz
 EXPOSE 1935 8000 8443 6935/udp
-WORKDIR nms-linux-amd64
+WORKDIR nms-linux-$TARGETARCH
 ENV ADMIN_PANEL=1 \
     GOP_CACHE=1 \
     TRANS_AUDIO=1 \
