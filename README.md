@@ -20,7 +20,7 @@ http://www.nodemedia.cn/doc/web/#/5?page_id=11
 * 支持H.264，H.265(flv id=12)视频编码
 * 支持AAC，Speex，NellyMoser，G711，Opus(flv id=13)音频编码
 * 支持非AAC编码推流时，不开新流零延迟转码AAC
-* 支持web后台快捷添加海康、大华、宇视RTSP拉流转发
+* 支持web后台快捷添加海康、大华、宇视、雄迈RTSP拉流转发
 * 支持配置自定义RTSP、RTMP地址拉取转发
 * 支持拉流转发任务持久化存储
 * 支持拉流转发任务断线自动重连
