@@ -1,12 +1,12 @@
 # Node Media Server v3
 
 ## 简介
-Node Media Server v3 是Go语言开发的商用高性能流媒体服务器。  
-依托于Go语言原生对多核的优势，发挥出极强的并发性能。  
-支持主流的RTMP、HTTP-FLV、WebSocket-FLV、低延迟HLS。  
-支持KCP传输的超低延迟，超强弱网传输能力的KMP协议。  
+Node Media Server v3 是Go语言开发的商用高性能流媒体服务器  
+依托于Go语言原生对多核的优势，发挥出极强的并发性能  
+支持主流的RTMP、HTTP-FLV、WebSocket-FLV、低延迟HLS  
+支持KCP传输的超低延迟，超强弱网传输能力的KMP协议  
 支持WebRTC协议接入推流，Flash退役后完美替代  
-支持行业应用的JT/T1078，GB28181(计划中)  
+支持行业应用的JT/T1078，GB28181
 
 ## 下载
 http://www.nodemedia.cn/doc/web/#/5?page_id=11
@@ -40,12 +40,12 @@ http://www.nodemedia.cn/doc/web/#/5?page_id=11
 * 支持直播推流定时截图
 * 支持直播录制MP4
 * 支持API控制截图与录像
+* 支持GB28181协议
 
 ## 计划
 * 支持服务端实时转码多分辨率输出
 * 支持服务端实时多模板合流
 * 支持WebRTC协议播流
-* 支持GB28181协议
 
 ## KMP
 ### KMP协议
