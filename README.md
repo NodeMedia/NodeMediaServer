@@ -47,6 +47,10 @@ http://www.nodemedia.cn/doc/web/#/5?page_id=11
 * 支持服务端实时多模板合流
 * 支持WebRTC协议播流
 
+## 管理面板
+![panel](https://raw.githubusercontent.com/illuspas/resources/master/img/QQ20201223-211657%402x.png)
+
+
 ## KMP
 ### KMP协议
 * kmp协议是诺德美地公司根据多年流媒体开发经验制定的视频传输协议  
@@ -89,6 +93,17 @@ Opus音频编码可在服务端实时转码为AAC
 ### 播流
 待实现
 
+## GB28181
+NMS v3.7.0开始，支持GB28181协议接入。可实现内网摄像头主动推流到公网，无需内网配置推流器，无需映射端口从公网拉取。  
+GB28181协议接入设备后自动转为RTMP协议，提供RTMP,FLV,HLS,KMP协议播放。
+
+### 特性
+* 支持H264/H265视频流
+* 支持G.711音频流，可在服务端自动转码AAC
+* 支持自动注册自动推流，断线重连
+* 支持API接口控制推流与结束
+* 支持密码验证
+
 ## 直播推流截图
 * 支持推流视频定时截图为jpg文件。
 * 提供http直接访问jpg
@@ -100,7 +115,7 @@ Opus音频编码可在服务端实时转码为AAC
 * 提供http直接访问mp4  
 
 ## 更新日志
-http://www.nodemedia.cn/doc/web/#/5?page_id=12
+http://www.nodemedia.cn/doc/web/#/5?page_id=90
 
 ## 文档
 http://www.nodemedia.cn/doc/web/#/5
