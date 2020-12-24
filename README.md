@@ -6,7 +6,7 @@ Node Media Server v3 是Go语言开发的商用高性能流媒体服务器
 支持主流的RTMP、HTTP-FLV、WebSocket-FLV、低延迟HLS  
 支持KCP传输的超低延迟，超强弱网传输能力的KMP协议  
 支持WebRTC协议接入推流，Flash退役后完美替代  
-支持行业应用的JT/T1078，GB28181
+支持行业应用的JT1078，GB28181
 
 ## 下载
 http://www.nodemedia.cn/doc/web/#/5?page_id=11
@@ -15,7 +15,7 @@ http://www.nodemedia.cn/doc/web/#/5?page_id=11
 * 支持多核，万级并发
 * 支持Windows/MacOS/Linux/FreeBSD
 * 支持X86_64/ARM64/ARM32/龙芯MIPS64架构
-* 支持Rtmp/Http-FLV/Websocket-FLV/HLS/JT-T1078协议接入
+* 支持Rtmp/Http-FLV/Websocket-FLV/HLS/JT1078/GB28181协议接入
 * 支持Https/Wss加密协议接入
 * 支持H.264，H.265(flv id=12)视频编码
 * 支持AAC，Speex，NellyMoser，G711，Opus(flv id=13)音频编码
@@ -103,6 +103,7 @@ GB28181协议接入设备后自动转为RTMP协议，提供RTMP,FLV,HLS,KMP协�
 * 支持自动注册自动推流，断线重连
 * 支持API接口控制推流与结束
 * 支持密码验证
+* 播放RTMP,FLV,KMP协议自动触发拉流，最后一个客户端停止播放自动触发停止
 
 ## 直播推流截图
 * 支持推流视频定时截图为jpg文件。
