@@ -38,7 +38,7 @@ http://www.nodemedia.cn/doc/web/#/5?page_id=11
 * 支持视频内容加密
 * 支持WebRTC协议推流，Opus音频实时转码AAC
 * 支持直播推流定时截图
-* 支持直播录制MP4
+* 支持直播录制MP4,FLV,TS,fMP4
 * 支持API控制截图与录像
 * 支持GB28181协议
 
