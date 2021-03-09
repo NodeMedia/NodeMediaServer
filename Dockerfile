@@ -1,6 +1,6 @@
 FROM --platform=$TARGETPLATFORM busybox:glibc
 ARG TARGETARCH
-RUN wget http://cdn.nodemedia.cn/nms/3.7.4/nms-linux-$TARGETARCH-v3.7.4-20210119.tar.gz -O - | tar xz
+RUN wget http://cdn.nodemedia.cn/nms/3.7.6/nms-linux-$TARGETARCH-v3.7.6-20210309.tar.gz -O - | tar xz
 EXPOSE 1935 8000 8443 6935/udp
 WORKDIR nms-linux-$TARGETARCH
 ENV ADMIN_PANEL=1 \
